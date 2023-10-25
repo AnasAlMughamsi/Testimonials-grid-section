@@ -7,11 +7,13 @@ import "./TestimonialsLayout.scss"
 const TestimonialsLayout = () => {
   return (
     <main className='testimonials-container'>
-        <article className='testimonials-card moderate-violet white-font grid-span-2'>
+        <article className='testimonials-card moderate-violet white-font grid-span-2 quote'>
             <div className="profile-block">
                 <img src="/images/image-daniel.jpg" alt="daniel"/>
-                Daniel Clifford
-                Verified Graduate
+                <div className="name-div">
+                    <span>Daniel Clifford</span>
+                    <span>Verified Graduate</span>
+                </div>
             </div>
 
             <h1>
@@ -31,12 +33,12 @@ const TestimonialsLayout = () => {
         <article className='testimonials-card dark-grayish-blue white-font'>
             <div className="profile-block">
                 <img src="/images/image-jonathan.jpg" alt="daniel"/>
-                Jonathan Walters
-                Verified Graduate
+                <div className="name-div">
+                    <span>Jonathan Walters</span>
+                    <span>Verified Graduate</span>
+                </div>             
             </div>
-
             <h1> The team was very supportive and kept me motivated </h1>
-
             <p>
                 “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
                 for a big company. This was one of the best investments I’ve made in myself. ”
@@ -45,13 +47,14 @@ const TestimonialsLayout = () => {
         
         <article className='testimonials-card white'>
         <div className="profile-block">
-                <img src="/images/image-jeanette.jpg" alt="daniel"/>
-                Jeanette Harmon
-                Verified Graduate
+                <img src="/images/image-jeanette.jpg" alt="Jeanette"/>
+                <div className="name-div">
+                    <span>Jeanette Harmon</span>
+                    <span>Verified Graduate</span>
+                </div>   
             </div>
 
             <h1> An overall wonderful and rewarding experience </h1>
-
             <p>
                 “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
                 while doing something I love. ”
@@ -62,8 +65,10 @@ const TestimonialsLayout = () => {
 
             <div className="profile-block">
                 <img src="/images/image-patrick.jpg" alt="daniel"/>
-                Patrick Abrams
-                Verified Graduate
+                <div className="name-div">
+                    <span>Patrick Abrams</span>
+                    <span>Verified Graduate</span>
+                </div>
             </div>
             
             <h1>Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
@@ -80,9 +85,11 @@ const TestimonialsLayout = () => {
         </article>
         <article className='testimonials-card white'>
             <div className="profile-block">
-                <img src="/images/image-kira.jpg" alt="daniel"/>
-                Kira Whittle
-                Verified Graduate
+                <img src="/images/image-kira.jpg" alt="kira"/>
+                <div className="name-div">
+                    <span>Kira Whittle</span>
+                    <span>Verified Graduate</span>
+                </div>
             </div>
 
             <h1>Such a life-changing experience. Highly recommended!</h1>
