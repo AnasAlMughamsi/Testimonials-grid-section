@@ -9,7 +9,7 @@ const TestimonialsLayout = () => {
     <main className='testimonials-container'>
         <article className='testimonials-card moderate-violet white-font grid-span-2'>
             <div className="profile-block">
-                <img src="'../../../frontend mentor/testimonials-grid-section-main/images/image-daniel.jpg" alt="daniel"/>
+                <img src="/images/image-daniel.jpg" alt="daniel"/>
                 Daniel Clifford
                 Verified Graduate
             </div>
@@ -30,7 +30,7 @@ const TestimonialsLayout = () => {
 
         <article className='testimonials-card dark-grayish-blue white-font'>
             <div className="profile-block">
-                <img src="'../../../frontend mentor/testimonials-grid-section-main/images/image-jonathan.jpg" alt="daniel"/>
+                <img src="/images/image-jonathan.jpg" alt="daniel"/>
                 Jonathan Walters
                 Verified Graduate
             </div>
@@ -45,7 +45,7 @@ const TestimonialsLayout = () => {
         
         <article className='testimonials-card white'>
         <div className="profile-block">
-                <img src="'../../../frontend mentor/testimonials-grid-section-main/images/image-jeanette.jpg" alt="daniel"/>
+                <img src="/images/image-jeanette.jpg" alt="daniel"/>
                 Jeanette Harmon
                 Verified Graduate
             </div>
@@ -61,7 +61,7 @@ const TestimonialsLayout = () => {
         <article className='testimonials-card dark-blackish-blue white-font grid-span-2'>
 
             <div className="profile-block">
-                <img src="'../../../frontend mentor/testimonials-grid-section-main/images/image-patrick.jpg" alt="daniel"/>
+                <img src="/images/image-patrick.jpg" alt="daniel"/>
                 Patrick Abrams
                 Verified Graduate
             </div>
@@ -80,7 +80,7 @@ const TestimonialsLayout = () => {
         </article>
         <article className='testimonials-card white'>
             <div className="profile-block">
-                <img src="'../../../frontend mentor/testimonials-grid-section-main/images/image-kira.jpg" alt="daniel"/>
+                <img src="/images/image-kira.jpg" alt="daniel"/>
                 Kira Whittle
                 Verified Graduate
             </div>
